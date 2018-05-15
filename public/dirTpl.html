@@ -4,6 +4,33 @@
     <meta charset="UTF-8">
     <title>List directory - {directory}</title>
     <style>{style}</style>
+    <style>
+        /* custom styles */
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a {
+            color: #3d3d3d;
+        }
+        h1 {
+            font-size: 1.6em;
+        }
+        .view-details {
+            font-size: 16px;
+        }
+        .view-details a[href$=".md"] {
+            font-weight: bold;
+        }
+        .view-details li:nth-child(odd) {
+            background: #f4f4f4;
+        }
+        .view-details li:first-child {
+            background: #fff;
+        }
+        .view-details li:hover {
+            background: #F7EBC6;
+        }
+    </style>
 </head>
 <body>
 <div class="container">
